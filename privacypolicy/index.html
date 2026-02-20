@@ -1,31 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy - Breathely</title>
-<style>
-body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;max-width:800px;margin:40px auto;padding:20px;line-height:1.6}
-h1{font-size:28px}
-a{color:#007aff;text-decoration:none}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy - Breathely</title>
+  <style>
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;max-width:860px;margin:40px auto;padding:0 18px;line-height:1.6;color:#111}
+    h1{font-size:30px;margin:0 0 10px}
+    h2{font-size:20px;margin-top:26px}
+    code{background:#f6f6f6;padding:2px 6px;border-radius:6px}
+    .meta{color:#555;margin-bottom:22px}
+    .card{background:#fafafa;border:1px solid #eee;border-radius:12px;padding:14px 16px;margin:14px 0}
+    a{color:#007aff;text-decoration:none}
+    a:hover{text-decoration:underline}
+    ul{margin:8px 0 8px 22px}
+    .footer{margin-top:34px;color:#666;font-size:13px}
+  </style>
 </head>
 <body>
-<h1>Privacy Policy</h1>
-<p>Effective Date: 2026</p>
+  <h1>Privacy Policy</h1>
+  <div class="meta">
+    <div><strong>App:</strong> Breathely</div>
+    <div><strong>Effective Date:</strong> 2026-02-20</div>
+  </div>
 
-<p>Breathely respects your privacy...</p>
+  <div class="card">
+    <strong>Plain-English Summary</strong>
+    <ul>
+      <li>No accounts. We do not collect email, phone number, address, or location.</li>
+      <li>Most data stays on your device only (preferences, reminders, breathing stats).</li>
+      <li>Subscriptions are managed via RevenueCat on iOS (standard purchase/subscription data).</li>
+      <li>Notifications are local reminders scheduled on-device (no push token sent to our server).</li>
+    </ul>
+  </div>
 
-<h2>Data We Collect</h2>
-<p>- Email (if account created)</p>
-<p>- Usage analytics</p>
+  <h2>1. Information We Store On Your Device (Not Sent to Our Servers)</h2>
+  <p>
+    Breathely stores certain information locally on your device using on-device storage (AsyncStorage)
+    to provide core features (progress tracking, reminders, personalization). This data is not sent to our servers.
+  </p>
+  <ul>
+    <li><strong>Preferences:</strong> favorites (exercise IDs), theme, language, haptics preference, optional user name.</li>
+    <li><strong>Breathing & usage statistics:</strong> total exercises, total time, streak, last exercise date, last 14 days history, last 5 sessions.</li>
+    <li><strong>Reminder settings:</strong> enabled/disabled, time, days of week, smart scheduling preferences.</li>
+    <li><strong>Smart scheduling data:</strong> recent app open timestamps (last 7 days) used to suggest reminder times.</li>
+  </ul>
 
-<h2>Third-Party Services</h2>
-<p>- Apple In-App Purchase</p>
+  <h2>2. Third-Party Services</h2>
 
-<h2>Contact</h2>
-<p>contact@breathely.app</p>
+  <h3>2.1 RevenueCat (Subscriptions / Purchases) — iOS only</h3>
+  <p>
+    If you purchase a subscription, Breathely uses <strong>RevenueCat</strong> to manage subscription status and purchase
+    validation on iOS. We do not send a custom user ID (appUserID). RevenueCat processes standard SDK data such as
+    device/app information and purchase/entitlement status.
+  </p>
+  <p>
+    RevenueCat Privacy Policy: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">https://www.revenuecat.com/privacy</a>
+  </p>
 
-<p><a href="../termsofuse/">View Terms of Use</a></p>
+  <h3>2.2 Expo Notifications (Local Reminders)</h3>
+  <p>
+    Breathely uses Expo Notifications only to schedule <strong>local</strong> reminder notifications on your device.
+    We do not send push tokens or user identifiers to our servers. Notification permission status is processed on-device.
+  </p>
+  <p>
+    Expo Privacy: <a href="https://expo.dev/privacy" target="_blank" rel="noopener">https://expo.dev/privacy</a>
+  </p>
+
+  <h2>3. Information We Do Not Collect</h2>
+  <ul>
+    <li>Email, phone number, postal address</li>
+    <li>Account credentials (no login system)</li>
+    <li>Precise or approximate location data</li>
+    <li>Push tokens sent to our servers (we only use local notifications)</li>
+    <li>Advertising identifiers or ad networks</li>
+    <li>Analytics SDKs (e.g., Firebase Analytics, Facebook SDK)</li>
+    <li>Social login integrations</li>
+  </ul>
+
+  <h2>4. Data Retention & Deletion</h2>
+  <p>
+    On-device data remains on your device unless you delete the app or clear the app’s storage.
+    Subscription data is handled by Apple and RevenueCat according to their policies.
+  </p>
+
+  <h2>5. Children’s Privacy</h2>
+  <p>
+    Breathely is not directed to children under 13. We do not knowingly collect personal information from children.
+  </p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>
+    We may update this Privacy Policy from time to time. The “Effective Date” above will reflect the latest version.
+  </p>
+
+  <h2>7. Contact</h2>
+  <p>
+    If you have questions about this policy, contact us at:
+    <br />
+    <strong>Email:</strong> <a href="mailto:mehmetfbunlu@gmail.com">mehmetfbunlu@gmail.coma>
+  </p>
+
+  <div class="footer">
+    <a href="../termsofuse/">Terms of Use</a> · <a href="../">Legal Home</a>
+  </div>
 </body>
 </html>
